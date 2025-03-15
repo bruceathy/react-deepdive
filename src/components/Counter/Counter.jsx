@@ -44,13 +44,13 @@ export default function Counter({ initialCount }) {
         <strong>is {initialCountIsPrime ? "a" : "not a"}</strong> prime number.
       </p>
       <p>
-        <IconButton icon={MinusIcon} onClick={handleDecrement}>
+        {/* <IconButton icon={MinusIcon} onClick={handleDecrement}>
           Decrement
         </IconButton>
         <CounterOutput value={counter} />
         <IconButton icon={PlusIcon} onClick={handleIncrement}>
           Increment
-        </IconButton>
+        </IconButton> */}
       </p>
     </section>
   );
